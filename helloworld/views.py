@@ -1,4 +1,3 @@
-import base64
 from django.shortcuts import render
 from django.http import HttpResponse
 picture_path = "/root/picture/{}"
