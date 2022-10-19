@@ -19,4 +19,6 @@ from django.urls import path
 from helloworld import views
 urlpatterns = [
     path('runoob/', views.runoob),
+    path('get_picture', views.get_picture),
+    path('get_pdf', views.get_pdf),
 ]
